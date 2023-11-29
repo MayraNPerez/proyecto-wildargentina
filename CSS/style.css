@@ -1,0 +1,607 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*INICIO - CSS*/
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.nav a{
+    color: blanchedalmond;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+a:hover{
+    color: coral;
+}
+.index{
+    background-image: url(../assets/Ballena\ austral\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.titulo-header{
+    margin: 0;
+    font-size: 3em;
+    position: absolute;
+    top:44%;
+    left:6%;
+}
+.titulo2-header{
+    font-size: 4em;
+    position: relative;
+    top: 35%;
+    color: blanchedalmond;
+}
+.slogan{
+    font-size: 20px;
+    color: blanchedalmond;
+    position: absolute;
+    top: 90%;
+    left: 37%;
+}
+.introduccion-contenedor{
+    height: 90vh;
+    padding: 100px 30px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.republica-argentina{
+    color: rgb(99, 99, 180);
+    font-weight: bold;
+    font-size: 20px;
+}
+.introduccion p{
+    padding: 30px 15px;
+}
+.regiones-contenedor{
+    height: 100%;
+    width: 100%;
+    padding: 30px 15px;
+    background-color: #265073a9;
+}
+.regiones-argentinas{
+    font-size: 2em;
+    color:rgba(220, 220, 220);
+    padding: 15px 5px;
+}
+/*UTILICÉ TARJETAS SACADAS DE BOOTSTRAP*/
+.tarjetas1{
+    display: block;
+    justify-content: space-around;
+}
+.tarjetas2{
+    display: block;
+    justify-content: space-around;
+}
+.card{
+    padding: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.h3-pam {
+    font-size: 1.2em;
+}
+.h3-pat{
+    font-size: 1.2em;
+}
+.h3-noro{
+    font-size: 1.2em;
+}
+
+.h3-nore{
+    font-size: 1.2em;
+}
+.h3-cuyo{
+    font-size: 1.2em;
+}
+.titulof h2{
+    font-size: 45px;
+}
+.descripcion{
+    padding: 15px;
+    font-size: 23px;
+}
+.contenedor-footer{
+    background-image: url(../ASSETS/fondo-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+.nombre-footer{
+    position: relative;
+    top:25%;
+    left: 26%;
+}
+.nombre-footer span{
+    font-size: 40px;
+}
+.nombre2-footer{
+    position: relative;
+    top:17%;
+    left: 5%;
+    color: rgba(255, 235, 205, 0.726);
+    font-size: 50px;
+}
+.nombre2-footer span{
+    font-size: 55px;
+}
+.footer1{
+    font-size: 15px;
+    position: relative;
+    top:25%;
+    left: 20%;
+    color: blanchedalmond;
+}
+.redes1{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+@media screen and (min-width: 480px){
+    .nav{
+        justify-content:center;
+        padding: 10px 30px;
+    }
+    .nav a{
+        color: blanchedalmond;
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content:center;
+        padding: 0px 30px;}
+        a:hover{
+            color: coral;
+        }
+    .titulo-header{
+        margin: 0;
+        font-size: 7vw;
+        position: absolute;
+        top:45%;
+        left:9%;
+    }
+    .titulo2-header{
+        font-size: 9vw;
+        position: relative;
+        top: 43%;
+        left: 5%;
+        color: blanchedalmond;
+    }
+    header{
+        overflow-x: hidden;
+    }
+    .slogan{
+        font-size: 20px;
+        color: blanchedalmond;
+        position: absolute;
+        top: 90%;
+        left: 45%;
+    }
+    .regiones-argentinas{
+        text-decoration: underline;
+        font-size: 40px;
+        color: rgba(0, 0, 0, 0.781);
+    }
+    .tarjetas1{
+        display: flex;
+        text-align: center;
+    }
+    .tarjetas2{
+        display: flex;
+        text-align: center;
+        padding: 15px 10px;
+    }
+    .nombre-footer{
+        position: relative;
+        top:40%;
+        left: 18%;
+        color: black;
+    }
+    .nombre-footer span{
+        font-size: 65px;
+    }
+    .nombre2-footer{
+        position: relative;
+        top:30%;
+        left: 13%;
+        color: rgba(255, 235, 205, 0.726);
+    }
+    .nombre2-footer span{
+        font-size: 75px;
+    }
+    .footer1{
+        font-size: 20px;
+        position: relative;
+        top: 0%;
+        left: 60%;
+    }
+    .redes1{
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 25px;
+    }
+    .descripciones{
+        display: flex;
+        justify-content: center;
+    }
+    .ft-geografia{
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-geografia h2,
+    .contenedor-geografia p{
+        display: inline-block;
+    }
+    .contenedor-geografia2{
+        display: flex;
+    }
+    .contenedor-geografia2 img{
+        height: 500px;
+        width: 500px;
+    }
+    span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .contenedorgeo-footer{
+        display: flex;
+    }
+    .nombre-footer3 span{
+        position: relative;
+        top: 15%;
+        left: 40%;
+    }
+    .nombre2-footer3 span{
+        position: absolute;
+        top: 28%;
+    }
+    .footer3 p{
+        position: relative;
+        top: 20%;
+        left: 200%;
+    }
+    .footer4 p{
+        position: relative;
+        top: 0%;
+        left: 50%;
+    }
+    .contact-form form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    .contact-info ul{
+        text-align: center;
+        text-decoration: none;
+    }
+}
+/*FAUNA - CSS*/
+/*UTILICÉ FLEXBOX PARA ACOMODAR LAS IMÁGENES EN BLOQUE PARA MOBILE Y EL MODO FLEX PARA EL DESKTOP*/
+.fauna{
+    overflow: hidden;
+    background-image: url(../ASSETS/pumma.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.f-pampeana{
+    height: 100%;
+    width: 100%;
+    padding: 50px 15px;
+    text-align: center;
+    margin:20px 0;
+}
+
+.ft-pampeana {
+    display: block;
+}
+.ft-pampeana img{
+    height: 200px;
+    width: 250px;
+}
+.f-patagonica{
+    height: 100%;
+    width: 100%;
+    padding: 50px 15px;
+    text-align: center;
+    margin: 20px 0;
+}
+.ft.patagonica{
+    display: block;
+}
+.ft-patagonia img{
+    height: 200px;
+    width: 250px;
+}
+.f-noroeste{
+    height: 100%;
+    width: 100%;
+    padding: 50px 15px;
+    text-align: center;
+    margin: 20px 0;
+}
+.ft-noroeste{
+    display: block;
+}
+.ft-noroeste img{
+    height: 200px;
+    width: 250px;
+}
+.f-noreste{
+    height: 100%;
+    width: 100%;
+    padding: 50px 15px;
+    text-align: center;
+    margin: 20px 0;
+}
+.ft-noreste{
+    display: block;
+}
+.ft-noreste img{
+    height: 200px;
+    width: 250px;
+}
+.f-cuyo{
+    height: 100%;
+    width: 100%;
+    padding: 50px 15px;
+    text-align: center;
+    margin: 20px 0;
+}
+.ft-cuyo{
+    display: block;
+}
+.ft-cuyo img{
+    height: 200px;
+    width: 250px;
+}
+.descripcion-fauna{
+    text-align: center;
+    padding: 5px 40px;
+}
+.contenedorfauna-footer{
+    background-image: url(../ASSETS/foote-fauna.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/*GEOGRAFIA - CSS*/*
+.geografia{
+    overflow: hidden;
+    background-image: url(../ASSETS/Las\ islas\ Malvinas\ en\ frente\ a\ la\ ciudad\ de\ Rio\ Gallegos\ capital\ de\ la\ provincia\ de\ santa\ Cruz\ geografia\ argentina\ Faustto\ Guerrero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nav2{
+    padding: 10px;
+}
+.nav2 a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 15px;
+}
+a:hover{
+    color: coral;
+}
+.contenedor-geografia2 p{
+    text-align: center;
+}
+.contenedor-geografia2 img{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    padding: 15px 5px;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ft-geografia{
+    display: flex;
+    justify-content: center;
+}
+.ft-geografia img{
+    display: block;
+    height: 200pxpx;
+    width: 300px;
+}
+.contenedorgeo-footer{
+    background-image: url(../ASSETS/footer-geo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 90vh;
+}
+.nombre-footer3{
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+.nombre-footer3 span{
+    font-size: 45px;
+}
+.nombre2-footer3{
+    position: relative;
+    top: 18%;
+    left: 13%;
+}
+.nombre2-footer3 span{
+    font-size: 55px;
+    color: rgba(255, 255, 255, 0.747);
+}
+.footer3{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+.footer3 p{
+    color: rgba(255, 255, 255, 0.747);
+}
+.redes3{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.747);
+}
+/*CULTURA - CSS**/
+/*TAMBIÉN UTILICÉ CONTENIDO DE BOOTSTRAP*/
+.cultura{
+    background-image: url(../assets/tango.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.card-body img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.card, .cul{ 
+    text-align: center;
+
+}
+.contenedorcul-footer{
+    background-image: url(../ASSETS/footer-cultura2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 90vh;
+}
+.nombre-footer4{
+    position: relative;
+    top:25%;
+    left: 30%;
+}
+.nombre-footer4 span{
+    font-size: 45px;
+}
+.nombre2-footer4{
+    position: relative;
+    top: 18%;
+    left: 13%;
+}
+.nombre2-footer4 span{
+    font-size: 55px;
+    color: rgba(255, 255, 255, 0.747);
+}
+.footer4{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+.footer4 p{
+    color: rgba(255, 255, 255, 0.747);
+}
+.redes4{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.747);
+}
+/*CONTACTO - CSS*/
+/*UTILICÉ EL MODO GRID PARA ACOMODAR EL FORMULARIO*/
+.contacto{
+    background-image: url(../ASSETS/fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.main-contacto{
+    padding: 0.3em 1.3em;
+}
+.contenedor-contacto{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.8em;
+}
+.contact{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.contact span{
+    color: rgba(2, 2, 2, 0.747);
+}
+.contact-form h3{
+    padding-bottom: 1em;
+}
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+}
+.contact-form form button{
+    background-color: blanchedalmond;
+    border: 0;
+    padding: 0.3em;
+}
+.contenido-contacto{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 1.5em;
+}
+.contact-info{
+    background-color: #222222;
+    color: rgba(255, 255, 255, 0.747);
+    padding: 1.5em;
+}
+.contact-info h4{
+    text-align: center;
+    text-decoration:underline;
+    padding-bottom: 0.7em;
+}
+.contact-info ul{
+    list-style: none;
+}
